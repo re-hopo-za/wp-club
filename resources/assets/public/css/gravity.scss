@@ -1,0 +1,264 @@
+@font-face {
+    font-family: Yekan-Bakh;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('../fonts/yekanbakh/Yekan_Bakh_FA_04_Regular.eot');
+    src: url('../fonts/yekanbakh/Yekan_Bakh_FA_04_Regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/yekanbakh/Yekan_Bakh_FA_04_Regular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/yekanbakh/Yekan_Bakh_FA_04_Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: Yekan-Bakh;
+    font-display: swap;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/yekanbakh/Yekan_Bakh_FA_06_Bold.eot');
+    src: url('../fonts/yekanbakh/Yekan_Bakh_FA_06_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/yekanbakh/Yekan_Bakh_FA_06_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/yekanbakh/Yekan_Bakh_FA_06_Bold.ttf') format('truetype');
+  }
+
+#gf_progressbar_wrapper_1{
+    & *{
+        box-sizing: border-box;
+    }
+}
+body,html,.elementor-widget-theme-post-content{
+    font-family: Yekan-Bakh !important;
+}
+.elementor-element-041376e{
+    margin: 30px !important;
+    form{
+        padding: 10px;
+    }
+}
+
+.elementor-page-title{
+    display: none;
+}
+
+
+#gform_wrapper_1,.page-content-wrapper{
+    background-color: #fff;
+    max-width: 450px; 
+    border-radius: 8px;
+}
+
+h3.gsection_title{
+    text-align: center !important;
+    color: white;
+    background: #6a6a6a !important;
+    padding: 10px !important;
+    border-radius: 5px;
+    margin-bottom: 0;
+    font-size: 20px;
+
+}
+.gform_wrapper.gravity-theme .gsection{
+        border-bottom: initial ;
+        padding: 0 !important;
+}
+
+.ltr_text{
+    input{
+        text-align: left !important;
+    }
+}
+input[type="text"],select{
+    padding: 8px;
+    border: 1px solid #c9c9c9;
+    color: #181818;
+    background: white;
+    border-radius: 4px;
+    &:focus-visible{
+        border: 1px solid #c9c9c9;
+    }
+}
+input[type="button"],input[type="submit"]{
+    border-radius: 4px;
+
+}
+.gform_next_button,.gform_button{
+
+    background-color: #f22d33;
+    border: 1px solid #f22d33;
+    color: white;
+    padding: 7px 20px 11px;
+    line-height: 15px;
+}
+.gform_previous_button{
+    padding: 7px 20px 11px;
+    line-height: 15px;
+}
+.ginput_container_address>span{
+	display:flex;
+	flex-direction: column-reverse;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.ginput_container_address>span>label{
+	margin-bottom:10px;
+}
+.gform_required_legend{
+    display: none;
+}
+.gf_progressbar_wrapper{
+    margin-bottom: 20px;
+}
+.gform_page_footer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    input{
+        flex: 1;
+        &:last-of-type{
+            margin-left: 0 !important;
+        }
+    }
+}
+.gform_ajax_spinner{
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+}
+.gform_body{
+    position: relative;
+}
+.gform_fields{
+    &>div{
+        margin-bottom: 10px;
+    }
+}
+.ginput_container_address{
+    label{
+        color: #333;
+    }
+}
+@media all and  (max-width:500px){
+    .ginput_container_address #input_1_25_4_container.ginput_address_state{
+        padding-left: 0 !important;
+    }
+}
+.ginput_container_fileupload{
+    // position: relative;
+    // margin-bottom: 20px;
+    text-align: left;
+    input{
+        display: none;
+        // visibility: hidden;
+        // height: 0;
+        // overflow: hidden;
+    }
+    .gform_fileupload_rules{
+        display: none;
+    }
+
+    &::after{
+
+        content: "بارگزاری فایل";
+        height: 50px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        border: 1px solid #c7c7c7;
+        border-radius: 4px;
+        line-height: 42px;
+        // position: absolute;
+        // top: 0;
+    }
+    .preview{
+        z-index: 1;
+        max-height: 80px;
+        width: auto;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+}
+
+.gfield_validation_message{
+    border: none !important;
+    background-color:initial !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.gform_page{
+    // display: block !important;
+}
+#field_1_35{
+    .gfield_radio{
+        // display: flex;
+        // flex-direction: row;
+        // flex-wrap: nowrap;
+        // // justify-content: space-between;
+        // align-items: center;
+        // align-content: center;
+        // text-align: center;
+        * div{
+            display: inline-block;
+        }
+        &>*{
+
+            .gfield-choice-input{
+                display: none;
+            }
+
+            label{
+                float: right;
+                margin-left: 20px;
+                // max-width: initial;
+                padding: 10px;
+                border: 1px solid gray;
+                border-radius: 5px;
+                display: inline-block;
+                // width: 100%;
+                color: black;
+                background-color: white;
+                transition: all 200ms;
+            }
+
+            .gfield-choice-input:checked+label{
+                background-color: #f22d33;
+                color: white;
+            }
+        }
+    }
+}
+.gform_wrapper.gravity-theme .ginput_complex input, .gform_wrapper.gravity-theme .ginput_complex select{
+    width: initial;
+    min-width: initial;
+}
+#input_1_25_3,#input_1_25_4{
+        appearance: none;
+        padding: 6px;
+        outline: none;
+        &:focus{
+            border: 1px solid #c9c9c9;            ;
+            outline: none;
+        }
+}
+
+.gform_wrapper.gravity-theme .gfield{
+    text-align: right;
+}
+
+
+.row,
+.container{
+    width:100%;
+    max-width:100%;
+
+}
+.club-user-info-form{
+    margin:0 auto;
+    margin-top:50px
+}

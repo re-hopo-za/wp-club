@@ -1,0 +1,6 @@
+
+<svg style="margin: auto; background: rgb(255, 255, 255); display: block; shape-rendering: auto;" width="18px" height="18px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+   <path d="M10 50A40 40 0 0 0 90 50A40 43.3 0 0 1 10 50" fill="#e15b64" stroke="none">
+       <animateTransform attributeName="transform" type="rotate" dur="0.15337423312883436s" repeatCount="indefinite" keyTimes="0;1" values="0 50 51.65;360 50 51.65"></animateTransform>
+   </path>
+</svg>

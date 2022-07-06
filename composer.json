@@ -1,0 +1,17 @@
+{
+    "name": "hosseinp/hwp-club",
+    "autoload": {
+        "psr-4": {
+            "HwpClub\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "hosseinp",
+            "email": "re.hopo.za@gmail.com"
+        }
+    ],
+    "require": {
+        "hashids/hashids": "^4.1"
+    }
+}
